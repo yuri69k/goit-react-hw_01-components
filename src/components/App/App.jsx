@@ -1,9 +1,9 @@
 // import { Profile, Statistics, FriendList, TransactionHistory } from '../';
 
-import { Profile } from '../Profile/Profile';
-import { Statistics } from '../Statistics/Statistics';
-import { FriendList } from '../FriendList/FriendList';
-import { TransactionHistory } from '../TransactionHistory/TransactionHistory';
+import { Profile } from '@components/Profile';
+import { Statistics } from '@components/Statistics';
+import { FriendList } from '@components/FriendList';
+import { TransactionHistory } from '@components/TransactionHistory';
 import { user, data, friends, transactions } from '../../data';
 import { Container } from './App.styled';
 
