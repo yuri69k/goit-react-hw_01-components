@@ -1,1 +1,1 @@
-export * from './Profile.jsx';
+export * from './Profile';
