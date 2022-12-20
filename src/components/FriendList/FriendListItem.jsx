@@ -13,14 +13,12 @@ const FriendListItem = ({
   avatar,
   isOnline,
 }) => {
-  return id ? (
+  return (
     <FriendListItemStyled key={id}>
       <IsOnlineIndicator isOnline={isOnline} />
       <AvatarImg src={avatar} alt={name} />
       <FriendName>{name}</FriendName>
     </FriendListItemStyled>
-  ) : (
-    ''
   );
 };
 
